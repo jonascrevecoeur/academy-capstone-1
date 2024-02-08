@@ -119,7 +119,7 @@ IMPORTANT NOTES:
 ### Step 1: Containerize
 
 Create a `Dockerfile` that packages your application. You can start from one of our Data Minded images
-which pre-installs Spark and its dependencies: put `FROM public.ecr.aws/dataminded/spark-k8s-glue:v3.1.2-hadoop-3.3.1` at the top of your Dockerfile.
+which pre-installs Spark and its dependencies: put `FROM public.ecr.aws/datamindedacademy/capstone:v3.4.1-hadoop-3.3.6-v1` at the top of your Dockerfile.
 
 ### Step 2: Push your image to an ECR repository
 
