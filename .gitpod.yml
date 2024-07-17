@@ -1,3 +1,6 @@
+checkoutLocation: "."
+workspaceLocation: "workspace"
+
 ports:
   - port: 4040 # pyspark UI
     onOpen: notify
